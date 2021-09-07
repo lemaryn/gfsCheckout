@@ -82,13 +82,13 @@ define([
                 return false;
             }
 
-            if (!$('input[name="checkoutResult"]').val()) {
+            /*if (!$('input[name="checkoutResult"]').val()) {
                 this.errorValidationMessage(
                     $t('Select the shipping method and try again.')
                 );
 
                 return false;
-            }
+            }*/
 
             if (!customer.isLoggedIn()) {
                 $(loginFormSelector).validation();
